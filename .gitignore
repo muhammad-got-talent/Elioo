@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.env.*
+*.local
+worker/projects
+worker/node_modules
+android/
+google-services.json
+*.apk

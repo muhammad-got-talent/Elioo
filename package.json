@@ -1,0 +1,31 @@
+{
+  "name": "elio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "android:setup": "node scripts/setup-android.mjs",
+    "android:apk": "node scripts/setup-android.mjs --build"
+  },
+  "dependencies": {
+    "firebase": "^10.14.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/android": "^7.0.0",
+    "@capacitor-community/speech-recognition": "^7.0.0",
+    "@capacitor-community/text-to-speech": "^7.0.0",
+    "jszip": "^3.10.1",
+    "@capacitor/filesystem": "^7.0.0",
+    "@capacitor/share": "^7.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11",
+    "@capacitor/cli": "^7.0.0"
+  }
+}

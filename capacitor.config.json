@@ -1,0 +1,6 @@
+{
+  "appId": "app.elio.agent",
+  "appName": "Elio",
+  "webDir": "dist",
+  "server": { "androidScheme": "https" }
+}

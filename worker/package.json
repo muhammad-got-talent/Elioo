@@ -1,0 +1,15 @@
+{
+  "name": "elio-worker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "setup-browser": "playwright install --with-deps chromium"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.7.0",
+    "playwright": "^1.49.0"
+  }
+}
